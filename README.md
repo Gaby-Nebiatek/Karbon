@@ -9,7 +9,8 @@
     - Determiner les services offerts par le champion (prendre des note!!)
     - Suivre le power point pour les week 2 a 8 
 
-[!WARNING] Faire attention: 
-- Connection avec meantime peux créer plusieurs sous projets lors de la synchronisation
-- S'assurer l'Harmonisation des noms entre les plateformes tel que Zoho, Quickbooks, Xero, etc.  tout depends de la situation
+> [!WARNING]
+> Faire attention :
+> - La connexion avec Meantime peut créer plusieurs sous‑projets lors de la synchronisation.
+> - Harmoniser les noms entre Zoho / QuickBooks / Xero selon la situation.
  
