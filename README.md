@@ -1,8 +1,5 @@
 # Formation Karbon
----
-
 ## Kick Off Meeting
----
 - Ordre du jour
     - présentation
     - Déterminer les objectifs
