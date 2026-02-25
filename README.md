@@ -25,7 +25,7 @@
 - Résumé de la mise en oeuvre
     - Importation assitée des contacts (options utiliser l'options d'importation et l'intégration du systèmes utilise par le cabinet )
     - Suivre slide
-    - Sous entend que le parcours Karbon que vous devez faire beaucoup de travail du coté des champions
+    - Mentionner Sous entend que le parcours Karbon que vous devez faire beaucoup de travail du coté des champions
 - Envoyer les liens de rencontre
     - templates build une semaine en chaqu'une des rencontres
  
@@ -73,7 +73,7 @@
 ---
 - Assignations
   - Nous allons retrouver dans cette section les mails, notes ou travaux que nous avons assigner à un collègue. Nous ne verrons pas le choses qui nous sont attribuer dans cette section.
-  - Nous pouvons nous assigner a nous meme des travaux donc ce retrouvera par le fait meme dans la section assignations, notes ou courriels. Nous pouvons ajouter des filtres sur les            different élément ce trouvant dans assignations.
+  - Nous pouvons nous assigner a nous meme des travaux donc ce retrouvera par le fait meme dans la section assignations, notes ou courriels. Nous pouvons ajouter des filtres sur les different élément ce trouvant dans assignations.
 ---
 > [!NOTE]
 > Les taches sont subdiviser en section: il existe deux type de section, section contenant des taches interne et une section nommer Demande client qui elle est envoyer par courriel avec des tâches a completer par le client. Si le client est inviter a sont espace Karbon for Client, que nous regarderons plus en details plus tard, il pourra y voir les taches de cette demandes.
@@ -153,7 +153,47 @@
   - Email Templates -> Montrer le processus
   - Share triage -> Montrer le processus
 
+- teams 
+  - Collègues: Les collègues invité et qui n'ont pas accepter leur invitations ne compte pas pour les sièges utiliser. Les addresses courriel Karbon ne compte pas pour un siège.
+  - Teams: Sert a filtrer nos collègue par exemple par département
+  - Roles: sont lier au rate plans. Nous déterminons le prix de chaque role dans un rate plans nous pouvons créer plusieur rate plans. Une personne qui n'est pas dans le role comptable par exemple peux exécuter des taches comptables mais ne sera pas en mesure de biller plus que les roles qui son attribuer a cette personnes
+  - Rate plan: Consiste a déterminer les prix pour chacuns des roles. Nous pouvons également ajouter un prix a un collègue, mais en générale ca ne devrais pas arriver c'est dans des cas plus particulier ou le collègue a un prix fix over les roles comme un consultant a prix fix
 
+- Contacts: 
+  - Dans la section des contacts nous allons déterminer les types de contacts que nous prévoyons utiliser. Généralement nous utilisons un calque de ce qui ce trouve dans les systeme comptable. Important a noter que les contacts qui ce synchronise avec les systemes comptable son uniquement les contacts de type client. 
+  - Nous pouvons défénir également comment le nom des contacts est disposer. Nous pouvons ajouter plus de role a définir dans le settings Client Team, lors de la creation d'un client chacun des role de ce client team devra etre assigner.
+  - Nous pouvons définir le type de priorité qui seront a disposition lors de la création dun nouveau contacts
+  - Nous avons la possibilité d'ajouter des customs fields a nos contact et c'est dans cette onglet que nous allons les définirs. (Ex: numero de taxe)
+
+- Karbon AI est en Beta ouvert et pret a etre tester
+  - dans le cas ou vous voulez lutilise vous pouvez choisir comment lagent AI repond a vos courriel dans les parametres email composer > faire un tour rapide au besoin
+
+- Karbon For Client
+  - Nous pouvons définir notre image de marque de notre plateforme
+  - Nous avons le choix de deux type de securiter a lespace client. Je vous recommande le Multi-factor. 2e options est un liens unique par courriel
+  - Nous pouvons choisir à quelle heure nous voulons envoyer les demandes clients que le param d'envoie automatique est activer
+  - Cette aussi a cette endroit que nous pouvons retrouver le liens du portail
+
+- Document Management
+  - Choisir la plateforme cloud à la quelle vous vouler partager les fichiers. Il faudra les permissions admin pour effectuer une connection sur les deux coté. Voir avec la personne qui gere votre environnement cloud lors de la connection au besoin
+
+- Integrations and Tools
+  - chacune des integration et outils ce retrouve dans cette endroit valider la documentation des integrations avant de procéder. Cela vous permettra de bien comprendre l'impact que chacune des intégrations aurons sur votre systeme et comment bien la faire pour ne pas créer d'erreur dans votre environnement et quelle reste propre
+
+---
+### Contacts
+- Organisation  
+  - entiter parent -> une organisation contient plusieurs personne lier a l'organisation via des cartes contacts dans chaque contact. 
+  - l'avatar d'une organisation est carré
+- Personne
+  - entiter enfant -> une personne peux etre lier a une organisation mais ne peux pas etre lier a une autre personne.
+  - l'avatar d'une personne est ronde
+
+### Options de filtrage
+- Client Group
+  - regroupement plusieurs organisation et des filtrer dans le dashboard
+- Segments 
+  - permets de filtrer les contacts par type de service  (faire un parallele avec les settings regarder plus tôt) et bien plus faire une tournée des filtres possible et la potentiel que les segments peuvent avoir besoin dans le future.
 
 
 
