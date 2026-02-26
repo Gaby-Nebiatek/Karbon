@@ -61,24 +61,25 @@
       - differente view
       - Ajouter a une ligne de temps
 ---
-- Ma semaine
-    -  Ce quon retrouve dans notre semaine sont:
-        - Nos travail
-        - Nos Courriel
-        - Nos Notes
-    - Tabs (cette semaine, semaine prochaine, plus tard, à planifier et completer): 
-        - Une Tab contient: nous allons retrouver les travail pret a commencer, les travail qui sont a planifier dans notre semaine nous allons voir plus en détail les status plus tard.
-            - Les work sont des cartes amovible qui nous permets de les déplacer dans differente tabs ou les diviser en status. Dans la cette onglet nous avons aussi des filtres que ce                   trouve tout juste sous la bar des tabs et nous avons le sidebar de droite qui est notre agenda. Donc si nous voulons booker du temps sur note agenda un peu tout simplement                  prendre un travail et le placer a l'heure de début de l'évenement nous pourrons ensuite définir les parametres tel que la duré et autre.
-            - Chacune des cartes ont un bouton "..." qui deroule un menu d'option (montrer l'exemple) lorsqu'on clique sur le travail il ouvre un dialogue qui nous permets de vbir plus de                détail concernant le travail et nous avons aussi dans cette nouvelle fenetre un bouton bleu pour voir toute le travail (montrer le dialogue)
+### Ma semaine
+-  Ce quon retrouve dans notre semaine sont:
+    - Nos travail
+    - Nos Courriel
+    - Nos Notes
+- Tabs (cette semaine, semaine prochaine, plus tard, à planifier et completer): 
+    - Une Tab contient: nous allons retrouver les travail pret a commencer, les travail qui sont a planifier dans notre semaine nous allons voir plus en détail les status plus tard.
+      - Les work sont des cartes amovible qui nous permets de les déplacer dans differente tabs ou les diviser en status. Dans la cette onglet nous avons aussi des filtres que ce                   trouve tout juste sous la bar des tabs et nous avons le sidebar de droite qui est notre agenda. Donc si nous voulons booker du temps sur note agenda un peu tout simplement                  prendre un travail et le placer a l'heure de début de l'évenement nous pourrons ensuite définir les parametres tel que la duré et autre.
+      - Chacune des cartes ont un bouton "..." qui deroule un menu d'option (montrer l'exemple) lorsqu'on clique sur le travail il ouvre un dialogue qui nous permets de vbir plus de                détail concernant le travail et nous avons aussi dans cette nouvelle fenetre un bouton bleu pour voir toute le travail (montrer le dialogue)
 ---
-- Assignations
+### Assignations
   - Nous allons retrouver dans cette section les mails, notes ou travaux que nous avons assigner à un collègue. Nous ne verrons pas le choses qui nous sont attribuer dans cette section.
   - Nous pouvons nous assigner a nous meme des travaux donc ce retrouvera par le fait meme dans la section assignations, notes ou courriels. Nous pouvons ajouter des filtres sur les different élément ce trouvant dans assignations.
 ---
 > [!NOTE]
 > Les taches sont subdiviser en section: il existe deux type de section, section contenant des taches interne et une section nommer Demande client qui elle est envoyer par courriel avec des tâches a completer par le client. Si le client est inviter a sont espace Karbon for Client, que nous regarderons plus en details plus tard, il pourra y voir les taches de cette demandes.
 
-- décomposer un travail: Un travail ca comporte une
+### travail
+Un travail ca comporte une
   
 - timeline: dans la time line on y retrouve les Notes, les emails qui on été ajouter a cette timeline dans le triage. Dans la timeline nous avons aussi les logs des états du work. Donc si il y a un événement a retracer tout ce trouve dans cette section du travail
   
@@ -168,6 +169,13 @@
 - Karbon AI est en Beta ouvert et pret a etre tester
   - dans le cas ou vous voulez lutilise vous pouvez choisir comment lagent AI repond a vos courriel dans les parametres email composer > faire un tour rapide au besoin
 
+- Billing and payments
+  - le karbon payments account (aka un stripe account) le user dois avoir les permission de management du billing. Voir les permission du collègues
+  - la création de la chartes des comptes
+  - Ajout de la periode comptable (ex: mensuel, débute en date du mm/jj/yyyy)
+  - création des tax rates approprier (GST/HST au canada)
+  - fichier personnalisable lier au billing (très peu de customisation)
+
 - Karbon For Client
   - Nous pouvons définir notre image de marque de notre plateforme
   - Nous avons le choix de deux type de securiter a lespace client. Je vous recommande le Multi-factor. 2e options est un liens unique par courriel
@@ -175,10 +183,10 @@
   - Cette aussi a cette endroit que nous pouvons retrouver le liens du portail
 
 - Document Management
-  - Choisir la plateforme cloud à la quelle vous vouler partager les fichiers. Il faudra les permissions admin pour effectuer une connection sur les deux coté. Voir avec la personne qui gere votre environnement cloud lors de la connection au besoin
+  - Choisir la plateforme cloud à la quelle vous vouler partager les fichiers. Il faudra les permissions admin pour effectuer une connection sur les deux coté. Voir avec la personne qui gere votre environnement cloud lors de la connection au besoin. Ensuite chaque personne qui veux ce connecter a lenvironnement de fichier cloud. 
 
 - Integrations and Tools
-  - chacune des integration et outils ce retrouve dans cette endroit valider la documentation des integrations avant de procéder. Cela vous permettra de bien comprendre l'impact que chacune des intégrations aurons sur votre systeme et comment bien la faire pour ne pas créer d'erreur dans votre environnement et quelle reste propre
+  - chacune des integration et outils ce retrouve dans cette endroit valider la documentation des integrations avant de procéder. Cela vous permettra de bien comprendre l'impact que chacune des intégrations aurons sur votre systeme et comment bien la faire pour ne pas créer d'erreur dans votre environnement et quelle reste propre. (QBO nous avons une section dédier pour celle-ci voir la documentation -> xxxx.intralink.sharepoint.com)
 
 ---
 ### Contacts
@@ -194,33 +202,3 @@
   - regroupement plusieurs organisation et des filtrer dans le dashboard
 - Segments 
   - permets de filtrer les contacts par type de service  (faire un parallele avec les settings regarder plus tôt) et bien plus faire une tournée des filtres possible et la potentiel que les segments peuvent avoir besoin dans le future.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
